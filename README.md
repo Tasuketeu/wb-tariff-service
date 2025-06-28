@@ -11,8 +11,9 @@
 2. Создайте файл `.env` на основе `.env.example`
 3. Заполните переменные окружения:
    - `WB_API_TOKEN` - токен Wildberries API
-   - `GOOGLE_CREDENTIALS` - JSON сервисного аккаунта Google
-   - `GOOGLE_SHEET_IDS` - ID Google таблиц через запятую
+   - `GOOGLE_SERVICE_ACCOUNT_EMAIL` - E-mail сервисного аккаунта Google
+   - `GOOGLE_PRIVATE_KEY` - Приватный ключ Google аккаунта
+   - `SPREADSHEET_IDS` - ID Google таблиц через запятую
 4. Запустите сервис:
 ```bash
 docker compose up --build
